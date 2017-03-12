@@ -13,6 +13,8 @@ It will patch one or many servers at once and dependent on workflow will do any 
 
 Improvements I'd like to see:
 * Convert to use just PowerShell Remoting at expense of backwards compatibility
-* Use the new Windows 10/2016 Windows update WMI classes
+* Use the new Windows 10/2016 Windows updated WMI classes, again breaks backward compatibility
+* Use CIM methods instead of WMI
+* Have end client computers fully handle patching on their own and update main program what state it is in
 * More front end workflows for different patching requirements like remove and add to load balancer
 * Better method of injecting variables rather than csv
